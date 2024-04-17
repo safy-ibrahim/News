@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 2000px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.active {
+    background-color: rgb(92, 92, 238);
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+nav ul a {
+    padding: 5px 10px;
+    
+}
+
+aside a {
+    padding: 10px;
+    width: 100%;
+}
+
+article img {
+    height: 220px;
+    object-fit: cover;
+}
+
+article {
+   display: flex;
+   flex-direction: row;
+   align-items: stretch;
+}
+
+/* article .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+article .card .btn {
+    align-self: flex-end;
+} */
+
+
+
